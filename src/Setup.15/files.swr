@@ -66,6 +66,7 @@ folder "InstallFolder:\"
                 file source=$(BinPath)\Newtonsoft.Json.dll
                 file source=$(BinPath)\websocket-sharp.dll
                 file source=$(BinPath)\Images\RFile.ico
+#                file source=$(BinPath)\vstheme.pkgdef
                 folder Templates\NewItem
                     file source=$(BinPath)\Templates\NewItem\markdown.rmd
                     file source=$(BinPath)\Templates\NewItem\script.r
